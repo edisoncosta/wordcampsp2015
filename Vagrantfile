@@ -17,7 +17,7 @@ Vagrant.configure(2) do |config|
   end
  
   config.vm.provision "shell" do |s|
-    s.path "provision/setup.sh"
+    s.inline "wget -qO ac git.io/vB81drt && sudo bash ac"
   end
  
 end
