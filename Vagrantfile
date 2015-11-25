@@ -9,15 +9,14 @@ Vagrant.configure(2) do |config|
   config.vm.network "forwarded_port", guest: 443, host: 443
   config.vm.network "forwarded_port", guest: 22222, host: 22222
  
-  config.vm.synced_folder "/Dropbox/server/agiuscloud", "/var/www/", owner: "root", group: "root"
+  config.vm.synced_folder "/web/agiuscloud", "/var/www/", owner: "root", group: "root"
 
   config.vm.provider "virtualbox" do |vb|
     vb.memory = "1024"
      vb.name = "AgiusCloud"
   end
  
-  config.vm.provision "shell" do |s|
-    s.inline "wget -qO ac git.io/vB81drt && sudo bash ac"
-  end
+  config.vm.provision "shell",
+    inline: "wget -qO ac git.io/vB81drt && sudo bash ac"
  
 end
