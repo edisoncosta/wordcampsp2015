@@ -1,7 +1,7 @@
 #!/bin/bash
 
 sudo -i
-cd/
+cd /
 
 echo "# Alteracao de Fuso Horario (Date)"
 echo "America/Sao_Paulo" > /etc/timezone
