@@ -1,0 +1,19 @@
+{
+    "name": "dev-agiuscloud.com",
+    "description": "Site modelo para WordCamp",
+    "repositories":[
+        {
+            "type":"composer",
+            "url":"http://wpackagist.org"
+        }
+    ],
+    "require": {
+        "wpackagist-plugin/woocommerce":"*",
+        "wpackagist-plugin/woocommerce-domination":"*",
+		    "wpackagist-plugin/woocommerce-correios":"*",
+		    "wpackagist-plugin/woocommerce-pagseguro":"*",
+		    "wpackagist-plugin/wordpress-seo":"*",
+		    "wpackagist-plugin/woocommerce-extra-checkout-fields-for-brazil":"*",
+        "wpackagist-theme/storefront":"*"
+    }
+}
