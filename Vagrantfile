@@ -9,7 +9,7 @@ Vagrant.configure(2) do |config|
   config.vm.network "forwarded_port", guest: 443, host: 443
   config.vm.network "forwarded_port", guest: 22222, host: 22222
  
-  config.vm.synced_folder "/web/agiuscloud", "/var/www/", owner: "root", group: "root"
+  config.vm.synced_folder "/jobs/agiuscloud", "/var/www/", owner: "root", group: "root"
 
   config.vm.provider "virtualbox" do |vb|
     vb.memory = "1024"
