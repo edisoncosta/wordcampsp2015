@@ -4,6 +4,9 @@ Ambiente de desenvolvimento para aplicações em WordPress com Vagrant, Composer
 
 Exemplos e Links utilizados na palestra. 
 
+### SlideShare
+- slideshare.net/edisonpcosta
+
 ### VirtualBox
 - https://www.virtualbox.org/
 
