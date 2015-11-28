@@ -1,6 +1,7 @@
 # WordCamp SP 2015
 
 Ambiente de desenvolvimento para aplicações em WordPress com Vagrant, Composer e Git.
+
 Exemplos e Links utilizados na palestra. 
 
 ### VirtualBox
