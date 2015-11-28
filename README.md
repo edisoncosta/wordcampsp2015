@@ -1,6 +1,6 @@
 # WordCamp SP 2015
 
-Ambiente de desenvolvimento para aplicações em WordPress com Vagrant, Composer e Git.
+Ambiente de desenvolvimento para aplicações em WordPress com Vagrant, Composer e Git/Revisr.
 
 Exemplos e Links utilizados na palestra. 
 
