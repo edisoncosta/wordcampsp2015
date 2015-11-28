@@ -47,6 +47,9 @@ Incluir ni final da linha: ;C:\HashiCorp\Vagrant\bin
 ### Composer
 - https://getcomposer.org/
 
+### Composer WordPress Packagist
+- http://wpackagist.org/
+
 ### Composer.Json
 - https://github.com/edisoncosta/wordcampsp2015/blob/master/composer.json
 
