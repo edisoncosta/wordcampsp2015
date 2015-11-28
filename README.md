@@ -1,6 +1,7 @@
 # WordCamp SP 2015
 
-Exemplos utilizados na palestra do WordCamp - São Paulo - 2015 
+Ambiente de desenvolvimento para aplicações em WordPress com Vagrant, Composer e Git.
+Exemplos e Links utilizados na palestra. 
 
 ### VirtualBox
 - https://www.virtualbox.org/
@@ -16,15 +17,48 @@ Exemplos utilizados na palestra do WordCamp - São Paulo - 2015
 (Download)
 - https://www.vagrantup.com/downloads.html
 
+(Boxes)
+- http://vagrantcloud.com
+
+(Documentação)
+- https://docs.vagrantup.com/v2/
+
 (Windows)
 - Painel de Controle>>Sistema>>Configurações Avançadas>>Avançado>>Variáveis de Ambiente>>Variáveis do Sistema>>Path>>Editar
 Incluir ni final da linha: ;C:\HashiCorp\Vagrant\bin
 
+### Vagrantfile
+- https://github.com/edisoncosta/wordcampsp2015/blob/master/Vagrantfile
 
+### Script para Configuração e instalação com o EasyEngine
+- https://raw.githubusercontent.com/edisoncosta/wordcampsp2015/master/installserver.sh
+- http://git.io/vB81d
+
+### EasyEngine
+- https://easyengine.io/
 
 ### Encurtador de URL
 - https://git.io/
 
-### Script para Configuração e instalação do EasyEngine
-- https://raw.githubusercontent.com/edisoncosta/wordcampsp2015/master/installserver.sh
-- http://git.io/vB81d
+### PuTTY
+- http://www.putty.org/
+
+### Composer
+- https://getcomposer.org/
+
+### Composer.Json
+- https://github.com/edisoncosta/wordcampsp2015/blob/master/composer.json
+
+### BitBucket
+- https://bitbucket.org/
+
+### Git 
+- https://git-scm.com/
+
+### Revisr (Plugin)
+- https://revisr.io/
+- https://wordpress.org/plugins/revisr/
+
+### Contatos
+- Email: edison@agiuscloud.com
+- Site: agiuscloud.com
