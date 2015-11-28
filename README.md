@@ -24,10 +24,6 @@ Exemplos e Links utilizados na palestra.
 (Documentação)
 - https://docs.vagrantup.com/v2/
 
-(Windows)
-- Painel de Controle>>Sistema>>Configurações Avançadas>>Avançado>>Variáveis de Ambiente>>Variáveis do Sistema>>Path>>Editar
-Incluir ni final da linha: ;C:\HashiCorp\Vagrant\bin
-
 ### Vagrantfile
 - https://github.com/edisoncosta/wordcampsp2015/blob/master/Vagrantfile
 
