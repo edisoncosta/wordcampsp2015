@@ -1,8 +1,5 @@
 #!/bin/bash
 
-sudo -i
-cd /
-
 echo "# Alteracao de Fuso Horario (Date)"
 echo "America/Sao_Paulo" > /etc/timezone
 dpkg-reconfigure -f noninteractive tzdata
@@ -15,7 +12,7 @@ sudo echo -e "[user]\n\tname = AgiusCloud\n\temail = edison@agiuscloud.com" > ~/
 wget -qO ee rt.cx/ee && sudo bash ee
 
 echo "# Instalacao de Servidores"
-ee stack install --nginx --php --mysql --phpmyadmin --utils --postfix --wpcli --hhvm --redis
+ee stack install --nginxmainline --php --mysql --phpmyadmin --utils --postfix --wpcli --hhvm --redis
 
 echo "# Instalacao do Composer"
 cd /usr/src
